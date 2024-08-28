@@ -13,32 +13,6 @@ To get the files in this repository:
 
 Please see the [API documentation](https://docs.nena.no/energyapi/) on how to setup [Power Query](https://learn.microsoft.com/en-us/power-query/power-query-what-is-power-query) in Excel and PowerBI.
 
-## Jupyter Notebook tutorial and python module.
-
-The notebook tutorials can be found in the Tutorials folder. It contains the following files:
-
-- **StormGeoAPI-Tutorial.ipynb** - An interactive tutorial on how to use the StormGeo API
-- **dk_wind_power.ipynb** - Tutorial on how to plot Danish wind power with data from the StormGeo API
-- **no_hydro_filling.ipynb** - Tutorial on how to plot Norwegian reservoir filling with data from the StormGeo API
-
-In addition, this folder has the python module:
-
-- **StormGeo_api.py** <br>
-
-with pre-implemented python functions for requesting data from the StormGeo API
-
-### Requirements
-
-You will need the following packages to run the notebook tutorials:
-
-- JupyterLab
-- Python3
-- Pandas
-- Bokeh
-- Matplotlib
-
-The easiest way to get these is by using a default installation of [Anaconda](https://www.anaconda.com/).
-
 ## API Limitations
 
 Here is listed a few important limitations in the API that any user should be aware of.
